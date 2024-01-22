@@ -80,7 +80,11 @@ form input.Boperator{
     color: #fdf2fa;
 }
 form input.Eoperator{
+    border-style: dotted;
+    border-color: rgb(42, 68, 216);
     display: flexbox;
     color: rgb(255, 255, 255);
-    background-color: rgb(113, 43, 43);
+    background-color: rgb(202, 60, 60);
+    box-shadow: -6px -6px 15px rgba(20, 8, 8, 0.1),5px 5px 15px rgba(160, 155, 155, 0.2);
+
 }
