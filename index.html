@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body> 
+    <!-- Main Container for calculator body  -->
+    <div class="Container">
+        <div class="Calculator">
+            <form >
+                <!-- display input box -->
+                <div class="smallDisplay">
+                    <input type="text" name = "smallDisplay" readonly>
+                </div>
+                <div class="display">
+                    <input type="text" name = "display" readonly>
+                </div>
+                <!-- Buttons for input  -->
+                <div>
+                    <input type="button" value="AC" class="Boperator">
+                    <input type="button" value="DE"  class="Boperator">
+                    <input type="button" value="%" class="Boperator">
+                    <input type="button" value='/'; class="Boperator">
+                </div>
+                <div> 
+                    <input type="button" value="7"  class="Number">
+                    <input type="button" value="8"  class="Number">
+                    <input type="button" value="9"  class="Number">
+                    <input type="button" value="*"  class="Boperator"> 
+                </div>
+                <div>
+                    <input type="button" value="4"  class="Number">
+                    <input type="button" value="5"  class="Number">
+                    <input type="button" value="6" class="Number">
+                    <input type="button" value="-" class="Boperator">
+                </div>
+                <div>
+                    <input type="button" value="1"  class="Number">
+                    <input type="button" value="2" class="Number">
+                    <input type="button" value="3"  class="Number">
+                    <input type="button" value="+"  class="Boperator">
+                </div>
+                <div>
+                    <input type="button" value="0" class="zero "  class="Number">
+                    <input type="button" value="."  class="Boperator">
+                    <input type="button" value="=" class="Eoperator">
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+    <script src="Calculator.js">  </script>
+</body>
+</html>

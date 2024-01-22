@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing:border-box;
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #19191d;
+    display: flex;
+    align-items: center;
+    border: #d5e9f1;
+    justify-content: center;
+
+}
+
+.Calculator{
+    background: #372031;
+    padding: 20px;
+    height: 68vh;
+    border-radius: 35px;
+    border-color: #d5e9f1;
+    border-style: solid;
+    box-shadow: -8px -8px 16px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(255, 255, 255, 0.2);
+
+
+}
+.Calculator form input{
+    border: 1px;
+    outline: 1px;
+    width: 60px;
+    height: 60px;
+    border-radius: 48px;
+    box-shadow: -6px -6px 15px rgba(20, 8, 8, 0.1),5px 5px 15px rgba(160, 155, 155, 0.2);
+    background: transparent;
+    font-size: 25px;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .smallDisplay {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0;
+}
+form .smallDisplay input{
+    text-align: right;
+    flex: 1;
+    font-size:15px;
+    box-shadow: 3px;
+
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: 1px;
+
+}
+form input.zero
+{
+    width: 143px;
+    text-align: center;
+
+}
+form input.operator{
+    color: #00ffd5;
+}
+form input.Boperator{
+    
+    color: #fdf2fa;
+}
+form input.Eoperator{
+    display: flexbox;
+    color: rgb(255, 255, 255);
+    background-color: rgb(113, 43, 43);
+}
